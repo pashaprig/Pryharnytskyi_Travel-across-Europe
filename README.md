@@ -1,4 +1,4 @@
-# Pryharnytskyi_Travel-across-Europe
+# Pryharnytskyi_way
 HTML Academy - Аттестация
 
 

@@ -1,0 +1,37 @@
+.places-tab{
+  width: 500px;
+
+  &__tabList{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tabItem{
+    flex-grow: 1;
+    height: 40px;
+    background: lightgreen;
+    margin: 5px;
+    cursor: pointer;
+
+    &--active{
+      background: lightblue;
+    }
+  }
+
+  &__contentList{
+    background: #eee;
+    margin: 5px;
+    padding: 20px;
+  }
+
+  &__contentItem{
+    display: none;
+    font-size: 24px;
+    padding: 20px;
+
+    &--active{
+      display: block;
+      background: lightblue;
+    }
+  }
+}

@@ -1,35 +1,35 @@
-.places-tab{
+.places-tab {
   width: 500px;
 
-  &__tabList{
+  &__tabList {
     display: flex;
     justify-content: space-between;
   }
 
-  &__tabItem{
+  &__tabItem {
     flex-grow: 1;
     height: 40px;
     background: lightgreen;
     margin: 5px;
     cursor: pointer;
 
-    &--active{
+    &--active {
       background: lightblue;
     }
   }
 
-  &__contentList{
-    background: #eee;
+  &__contentList {
+    background: #eeeeee;
     margin: 5px;
     padding: 20px;
   }
 
-  &__contentItem{
+  &__contentItem {
     display: none;
     font-size: 24px;
     padding: 20px;
 
-    &--active{
+    &--active {
       display: block;
       background: lightblue;
     }

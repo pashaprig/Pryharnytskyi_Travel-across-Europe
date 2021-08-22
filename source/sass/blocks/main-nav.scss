@@ -1,0 +1,24 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  max-width: 1170px;
+}
+
+.main-nav__list {
+  display: flex;
+}
+
+.main-nav__item {
+  margin: 0 20px;
+}
+
+.main-nav__item a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: $nav-black;
+
+  &:hover {
+    color: $nav-hover;
+  }
+}

@@ -1,0 +1,38 @@
+.phone {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.phone__link {
+  color: $phone-black;
+  text-decoration: underline;
+
+  &:hover {
+    color: $basic-orange;
+  }
+
+  &::before {
+    content: "";
+    background-image: url("../../img/phone-icon.svg");
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
+    &:hover {
+      fill: $basic-orange;
+    }
+  }
+}
+
+// .phone__icon {
+//   fill: none;
+//   stroke: $phone-black;
+//   cursor: pointer;
+
+//   &:hover {
+//     stroke: $nav-hover;
+//   }
+// }

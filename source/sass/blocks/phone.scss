@@ -9,7 +9,7 @@
   text-decoration: underline;
 
   &:hover {
-    color: $nav-hover;
+    color: $basic-orange;
   }
 
   &::before {
@@ -22,7 +22,7 @@
     vertical-align: middle;
 
     &:hover {
-      fill: $nav-hover;
+      fill: $basic-orange;
     }
   }
 }

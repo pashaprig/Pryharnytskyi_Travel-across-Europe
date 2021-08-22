@@ -5,12 +5,3 @@
   align-items: center;
   min-height: 100px;
 }
-
-.page-header__phone {
-  color: $phone-black;
-  text-decoration: underline;
-
-  &:hover {
-    color: $nav-hover;
-  }
-}

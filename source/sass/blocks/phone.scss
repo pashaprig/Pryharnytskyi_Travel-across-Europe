@@ -8,6 +8,14 @@
   color: $phone-black;
   text-decoration: underline;
 
+  &--black {
+    margin-left: -35px;
+    font-size: 20px;
+    line-height: 32px;
+    color: $basic-black;
+    text-decoration: none;
+  }
+
   &:hover {
     color: $basic-orange;
   }

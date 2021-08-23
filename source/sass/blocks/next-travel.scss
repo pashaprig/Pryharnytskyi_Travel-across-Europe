@@ -1,0 +1,8 @@
+.next-travel__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  color: $phone-black;
+  opacity: 0.5;
+}

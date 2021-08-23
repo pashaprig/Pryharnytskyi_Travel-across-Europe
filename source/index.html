@@ -134,81 +134,63 @@
               </div>
             </a>
           </li>
-
-          <!-- <li class="places__item">
-            <a href="#">
-              <img class="places__img" src="#" width="350" height="430" alt="Пейзаж Албании">
-              <div class="places__state">
-                <h3 class="places__name">Албания</h3>
-              </div>
-            </a>
-          </li>
-
-          <li class="places__item">
-            <a href="#">
-              <img class="places__img" src="#" width="350" height="430" alt="Пейзаж Македонии">
-              <div class="places__state">
-                <h3 class="places__name">Македония</h3>
-              </div>
-            </a>
-          </li>
-
-          <li class="places__item">
-            <a href="#">
-              <img class="places__img" src="#" width="350" height="430" alt="Пейзаж Черногории">
-              <div class="places__state">
-                <h3 class="places__name">Черногория</h3>
-              </div>
-            </a>
-          </li>
-
-          <li class="places__item">
-            <a href="#">
-              <img class="places__img" src="#" width="350" height="430" alt="Пейзаж Хорватии">
-              <div class="places__state">
-                <h3 class="places__name">Хорватия</h3>
-              </div>
-            </a>
-          </li> -->
         </ul>
 
-        <div class="places-tab" id="tabs">
-          <div class="places-tab__tabList">
-            <div class="places-tab__tabItem places-tab__tabItem--active">Греция</div>
-            <div class="places-tab__tabItem">Албания</div>
-            <div class="places-tab__tabItem">Македония</div>
-            <div class="places-tab__tabItem">Черногория</div>
-            <div class="places-tab__tabItem">Хорватия</div>
+        <div class="placeces__more-information">
+          <div class="places-tab" id="tabs">
+            <div class="places-tab__tabList">
+              <div class="places-tab__tabItem places-tab__tabItem--active">Греция</div>
+              <div class="places-tab__tabItem">Албания</div>
+              <div class="places-tab__tabItem">Македония</div>
+              <div class="places-tab__tabItem">Черногория</div>
+              <div class="places-tab__tabItem">Хорватия</div>
+            </div>
+
+            <div class="places-tab__contentList">
+              <div class="places-tab__contentItem places-tab__contentItem--active">
+                <div class="places-tab__wrapper">
+                  <div class="places-tab__text">
+                    <h3 class="places-tab__title">Греция</h3>
+                    <div class="orange-line orange-line--w175-h3"></div>
+                    <p class="places-tab__about">На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
+                      Название его «Метеора» буквально переводится как «висящие в воздухе».
+                      Этот монастырь основная цель нашего путешествия в Греции.
+                      После покарения скал из песчанника и обломочной горной породы, достигающих в высоту 600 метров,
+                      наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.</p>
+                    <button class="button">купить тур сейчас</button>
+                  </div>
+
+                  <picture>
+                    <!-- <source type="image/webp" media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.webp 1x, img/index/photo-bridge-desktop@2x.webp 2x">
+                    <source type="image/webp" media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.webp 1x, img/index/photo-bridge-tablet@2x.webp 2x"> -->
+                    <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
+
+                    <!-- <source media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.jpg 1x, img/index/photo-bridge-desktop@2x.jpg 2x">
+                    <source media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.jpg 1x, img/index/photo-bridge-tablet@2x.jpg 2x"> -->
+                    <img class="places-tab__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="430" height="569" alt="Пейзаж Греции">
+                  </picture>
+                </div>
+
+              </div>
+              <div class="places-tab__contentItem">Второй контент</div>
+              <div class="places-tab__contentItem">Третий контент</div>
+              <div class="places-tab__contentItem">4 контент</div>
+              <div class="places-tab__contentItem">5 контент</div>
+            </div>
           </div>
 
-          <div class="places-tab__contentList">
-            <div class="places-tab__contentItem places-tab__contentItem--active">
-              <h3>Греция</h3>
-              <div class="orange-line"></div>
-              <p>На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал.
-                Название его «Метеора» буквально переводится как «висящие в воздухе».
-                Этот монастырь основная цель нашего путешествия в Греции.
-                После покарения скал из песчанника и обломочной горной породы, достигающих в высоту 600 метров,
-                наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры.</p>
-              <button class="button">купить тур сейчас</button>
-              <img src="#" width="430" height="596" alt="Пейзаж Греции">
-
-              <div class="review">
-                <h3 class="review__title">Отзыв</h3>
-                <div class="orange-line"></div>
-                <p class="review__text">Метеоры в Греции можно сравнить разве что с Монсерратт в Испании.
-                  Такие же высоченные скалы. Но здесь потрясает масштаб.
-                  Огромная территория, высоко в горах.
-                  Ощущение такое, как будто стоишь на краю света!</p>
-                <span class="review__author">Влада Голицина</span>
-              </div>
-            </div>
-            <div class="places-tab__contentItem">Второй контент</div>
-            <div class="places-tab__contentItem">Третий контент</div>
-            <div class="places-tab__contentItem">4 контент</div>
-            <div class="places-tab__contentItem">5 контент</div>
+          <div class="review">
+            <h3 class="review__title">Отзывы</h3>
+            <div class="orange-line orange-line--w68-h1-mb20"></div>
+            <p class="review__about">Метеоры в Греции можно сравнить разве что с Монсерратт в Испании.
+              Такие же высоченные скалы. Но здесь потрясает масштаб.
+              Огромная территория, высоко в горах.
+              Ощущение такое, как будто стоишь на краю света!</p>
+            <span class="review__author">Влада Голицина</span>
           </div>
         </div>
+
+
 
         <div id="price" class="price">
           <div class="price__variant">

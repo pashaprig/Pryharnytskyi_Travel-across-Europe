@@ -1,37 +1,72 @@
 .places-tab {
-  width: 500px;
+  position: relative;
+  max-width: 902px;
 
   &__tabList {
     display: flex;
     justify-content: space-between;
-  }
-
-  &__tabItem {
-    flex-grow: 1;
-    height: 40px;
-    background: lightgreen;
-    margin: 5px;
-    cursor: pointer;
-
-    &--active {
-      background: lightblue;
-    }
+    border-bottom: 1px solid rgba(44, 46, 63, 0.3);
   }
 
   &__contentList {
-    background: #eeeeee;
-    margin: 5px;
-    padding: 20px;
-  }
 
-  &__contentItem {
-    display: none;
-    font-size: 24px;
-    padding: 20px;
-
-    &--active {
-      display: block;
-      background: lightblue;
-    }
   }
+}
+
+.places-tab__tabItem {
+  flex-grow: 1;
+  height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: $nav-black;
+  opacity: 0.3;
+  cursor: pointer;
+
+  &--active {
+    color: $basic-orange;
+    opacity: 1;
+  }
+}
+
+.places-tab__wrapper {
+  display: flex;
+
+}
+
+.places-tab__contentItem {
+  display: none;
+  font-size: 24px;
+
+
+  &--active {
+    display: block;
+  }
+}
+
+.places-tab__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90px;
+}
+
+.places-tab__about {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  min-width: 390px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.places-tab__text {
+  margin-right: 80px;
+}
+
+.places-tab__img {
+  object-fit: cover;
 }

@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.placeces__more-information {
+  max-width: 1170px;
+  position: relative;
+}
+
 .places__title {
   margin: 0;
   padding: 0;
@@ -24,6 +29,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
+  margin-bottom: 120px;
   padding: 0;
 }
 

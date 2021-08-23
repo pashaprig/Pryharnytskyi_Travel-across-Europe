@@ -1,0 +1,19 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+footer h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $phone-black;
+}
+
+footer  p {
+  margin: 0;
+}

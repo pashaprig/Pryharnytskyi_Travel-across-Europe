@@ -1,0 +1,7 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+  border-left: 1px solid $contacts-grey;
+  border-right: 1px solid $contacts-grey;
+}

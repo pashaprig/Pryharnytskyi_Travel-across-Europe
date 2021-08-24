@@ -4,4 +4,9 @@
   justify-content: space-around;
   align-items: center;
   min-height: 100px;
+
+  @media (max-width: $tablet-width) {
+    justify-content: flex-start;
+    min-height: 50px;
+  }
 }

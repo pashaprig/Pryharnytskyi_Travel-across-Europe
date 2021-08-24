@@ -6,6 +6,12 @@
   &--margin-0 {
     margin-left: 0;
   }
+
+  @media (max-width: $tablet-width) {
+    &--only-desktop {
+      display: none;
+    }
+  }
 }
 
 .phone__link {

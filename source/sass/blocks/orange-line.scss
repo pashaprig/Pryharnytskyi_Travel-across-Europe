@@ -17,4 +17,8 @@
     height: 1px;
     margin-bottom: 20px;
   }
+
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
 }

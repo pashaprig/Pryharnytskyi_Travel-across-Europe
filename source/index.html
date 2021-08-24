@@ -32,31 +32,27 @@
 
     <main class="main">
       <div class="hero">
-        <div class="hero-content">
-          <h1 class="hero-content__title">Путешествие по Европе</h1>
-          <p class="hero-content__about">В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.</p>
-          <a class="button button--tablet-w250 button--mobile-w288" href="#tabs">смотреть тур</a>
+        <div class="hero__top-part">
+          <h1 class="hero__title">Путешествие по Европе</h1>
+          <div class="hero__bottom-part">
+            <p class="hero__about">В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.</p>
+            <a class="button button--tablet-w250 button--mobile-w288" href="#tabs">смотреть тур</a>
+          </div>
         </div>
       </div>
 
-      <!-- <section class="places" id="places">
+      <section class="places" id="places">
         <h2 class="places__title">Места посещения</h2>
         <div class="orange-line orange-line--w229-h4"></div>
         <p class="places__about">Вы можете выбрать полный тур или частичный, с посещением первых 3 мест</p>
 
         <ul class="places__list">
           <li class="places__item">
-            <a href="#">
+            <a href="#greece">
               <picture>
-                <source type="image/webp" media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.webp 1x, img/index/photo-bridge-desktop@2x.webp 2x">
-                <source type="image/webp" media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.webp 1x, img/index/photo-bridge-tablet@2x.webp 2x">
                 <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
-
-                <source media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.jpg 1x, img/index/photo-bridge-desktop@2x.jpg 2x">
-                <source media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.jpg 1x, img/index/photo-bridge-tablet@2x.jpg 2x">
                 <img class="places__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="350" height="430" alt="Пейзаж Греции">
               </picture>
-
               <div class="places__state">
                 <h3 class="places__name">Греция</h3>
               </div>
@@ -64,75 +60,55 @@
           </li>
 
           <li class="places__item">
-            <a href="#">
+            <a href="#albania">
               <picture>
-
-                <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
-
-
-                <img class="places__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="350" height="430" alt="Пейзаж Греции">
+                <source type="image/webp" srcset="img/albania@1x.webp 1x, img/albania@2x.webp 2x">
+                <img class="places__img" src="img/albania@1x.jpg" srcset="img/albania@2x.jpg 2x" width="350" height="430" alt="Пейзаж Албании">
               </picture>
-
               <div class="places__state">
-                <h3 class="places__name">Греция</h3>
+                <h3 class="places__name">Албания</h3>
               </div>
             </a>
           </li>
 
           <li class="places__item">
-            <a href="#">
+            <a href="#macedonia">
               <picture>
-
-                <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
-
-
-                <img class="places__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="350" height="430" alt="Пейзаж Греции">
+                <source type="image/webp" srcset="img/macedonia@1x.webp 1x, img/macedonia@2x.webp 2x">
+                <img class="places__img" src="img/macedonia@1x.jpg" srcset="img/macedonia@2x.jpg 2x" width="350" height="430" alt="Пейзаж Македонии">
               </picture>
-
               <div class="places__state">
-                <h3 class="places__name">Греция</h3>
+                <h3 class="places__name">Македония</h3>
               </div>
             </a>
           </li>
 
           <li class="places__item">
-            <a href="#">
+            <a href="#montenegro">
               <picture>
-                <source type="image/webp" media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.webp 1x, img/index/photo-bridge-desktop@2x.webp 2x">
-                <source type="image/webp" media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.webp 1x, img/index/photo-bridge-tablet@2x.webp 2x">
-                <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
-
-                <source media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.jpg 1x, img/index/photo-bridge-desktop@2x.jpg 2x">
-                <source media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.jpg 1x, img/index/photo-bridge-tablet@2x.jpg 2x">
-                <img class="places__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="350" height="430" alt="Пейзаж Греции">
+                <source type="image/webp" srcset="img/montenegro@1x.webp 1x, img/montenegro@2x.webp 2x">
+                <img class="places__img" src="img/montenegro@1x.jpg" srcset="img/montenegro@2x.jpg 2x" width="350" height="430" alt="Пейзаж Черногории">
               </picture>
-
               <div class="places__state">
-                <h3 class="places__name">Греция</h3>
+                <h3 class="places__name">Черногория</h3>
               </div>
             </a>
           </li>
 
           <li class="places__item">
-            <a href="#">
+            <a href="#croatia">
               <picture>
-                <source type="image/webp" media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.webp 1x, img/index/photo-bridge-desktop@2x.webp 2x">
-                <source type="image/webp" media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.webp 1x, img/index/photo-bridge-tablet@2x.webp 2x">
-                <source type="image/webp" srcset="img/greece@1x.webp 1x, img/greece@2x.webp 2x">
-
-                <source media="(max-width: 320px)" srcset="img/index/photo-bridge-desktop@1x.jpg 1x, img/index/photo-bridge-desktop@2x.jpg 2x">
-                <source media="(max-width: 768px)" srcset="img/index/photo-bridge-tablet@1x.jpg 1x, img/index/photo-bridge-tablet@2x.jpg 2x">
-                <img class="places__img" src="img/greece@1x.jpg" srcset="img/greece@2x.jpg 2x" width="350" height="430" alt="Пейзаж Греции">
+                <source type="image/webp" srcset="img/croatia@1x.webp 1x, img/croatia@2x.webp 2x">
+                <img class="places__img" src="img/croatia@1x.jpg" srcset="img/croatia@2x.jpg 2x" width="350" height="430" alt="Пейзаж Хорватии">
               </picture>
-
               <div class="places__state">
-                <h3 class="places__name">Греция</h3>
+                <h3 class="places__name">Хорватия</h3>
               </div>
             </a>
           </li>
         </ul>
 
-        <div class="placeces__more-information">
+        <!-- <div class="placeces__more-information">
           <div class="places-tab" id="tabs">
             <div class="places-tab__tabList">
               <div class="places-tab__tabItem places-tab__tabItem--active">Греция</div>

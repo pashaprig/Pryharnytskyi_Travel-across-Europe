@@ -130,6 +130,7 @@
 
 .main-nav--opened .main-nav__toggle {
   background-color: $basic-white;
+
   &::before,
   &::after {
     content: "";

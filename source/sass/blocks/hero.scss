@@ -1,5 +1,4 @@
 .hero {
-  // position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,28 +21,25 @@
     height: 344px;
   }
 
-  // &--smaller-height {
-  //   height: 157px;
-  //   background: url("../img/back-desktop2@1x.jpg") no-repeat $basic-blue;
-
-  //   @media (min-resolution: 2dppx) {
-  //     background: url("../img/back-desktop2@2x.jpg") no-repeat $basic-blue;
-  //     background-position: 50% 0;
-  //     background-size: cover;
-  //   }
-
-  //   @media (min-width: $tablet-width) {
-  //     height: 289px;
-  //   }
-
-  //   @media (min-width: $desktop-width) {
-  //     height: 300px;
-  //   }
-  // }
+  @media (max-width: $mobile-width) {
+    height: 235px;
+  }
 }
 
 .hero-content {
   margin-right: 350px;
+
+  @media (max-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
 }
 
 .hero-content__title {
@@ -51,8 +47,22 @@
   padding: 0;
   max-width: 420px;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 55px;
   line-height: 80px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  @media (max-width: $mobile-width) {
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 130px;
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 .hero-content__about {
@@ -60,4 +70,13 @@
   padding: 0;
   max-width: 400px;
   line-height: 170%;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  @media (max-width: $mobile-width) {
+    color: $nav-black;
+  }
 }

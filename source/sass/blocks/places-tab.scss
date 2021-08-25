@@ -1,15 +1,22 @@
 .places-tab {
+  position: relative;
   max-width: 902px;
+  margin: 0 auto;
 
-  &__tabList {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(44, 46, 63, 0.3);
+  @media (max-width: $tablet-width) {
+    margin-left: 0;
   }
+}
 
-  // &__contentList {
+.places-tab__tabList {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(44, 46, 63, 0.3);
 
-  // }
+  @media (max-width: $tablet-width) {
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
 }
 
 .places-tab__tabItem {
@@ -26,10 +33,26 @@
     color: $basic-orange;
     opacity: 1;
   }
+
+  &--tablet-none {
+    @media (max-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+  &--mobile-none {
+    @media (max-width: $mobile-width) {
+      display: none;
+    }
+  }
 }
 
 .places-tab__wrapper {
   display: flex;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+  }
 }
 
 .places-tab__contentItem {
@@ -48,6 +71,12 @@
   font-weight: 600;
   font-size: 55px;
   line-height: 90px;
+
+  @media (max-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+  }
 }
 
 .places-tab__about {
@@ -59,12 +88,36 @@
   font-size: 16px;
   line-height: 28px;
   opacity: 0.7;
+
+  @media (max-width: $tablet-width) {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media (max-width: $mobile-width) {
+    min-width: 290px;
+  }
 }
 
 .places-tab__text {
   margin-right: 80px;
+
+  @media (max-width: $tablet-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
 
 .places-tab__img {
   object-fit: cover;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    height: 415px;
+  }
 }

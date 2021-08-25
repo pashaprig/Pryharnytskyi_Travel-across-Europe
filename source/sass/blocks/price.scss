@@ -1,5 +1,14 @@
 .price {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
+  min-width: 1170px;
+
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .price__title {

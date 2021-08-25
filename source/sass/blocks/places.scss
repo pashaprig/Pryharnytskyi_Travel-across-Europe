@@ -1,9 +1,8 @@
-// .places {
-//   // margin-right: 158px;
-//   // margin-left: 158px;
-
-
-// }
+.places {
+  @media (max-width: $tablet-width) {
+    margin-bottom: 50px;
+  }
+}
 
 .places__big-fotos {
   @media (max-width: $tablet-width) {

@@ -1,7 +1,11 @@
-.places {
-  max-width: 1170px;
-  margin: 0 auto;
+// .places {
+//   // margin-right: 158px;
+//   // margin-left: 158px;
 
+
+// }
+
+.places__big-fotos {
   @media (max-width: $tablet-width) {
     margin-right: 76px;
     margin-left: 76px;
@@ -15,8 +19,21 @@
 
 .placeces__more-information {
   position: relative;
-  max-width: 1170px;
-  margin-bottom: 230px;
+  max-width: 1444px;
+  margin-right: 116px;
+  margin-left: 158px;
+  padding-bottom: 475px;
+  background: url("../../img/europe.svg") no-repeat $basic-white;
+  background-position: 50% 0;
+  background-size: cover;
+
+  @media (max-width: $tablet-width) {
+    max-width: none;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    background: none;
+  }
 }
 
 .places__title {
@@ -55,13 +72,23 @@
   }
 }
 
+.places__info {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .places__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0;
+  max-width: 1170px;
+  margin: 0 auto;
   margin-bottom: 120px;
   padding: 0;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 90px;
+  }
 
   @media (max-width: $mobile-width) {
     justify-content: center;

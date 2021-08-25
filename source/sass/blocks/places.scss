@@ -1,4 +1,7 @@
 .places {
+  position: relative;
+  padding-bottom: 300px;
+
   @media (max-width: $tablet-width) {
     margin-bottom: 50px;
   }
@@ -19,8 +22,7 @@
 .placeces__more-information {
   position: relative;
   max-width: 1444px;
-  margin-right: 116px;
-  margin-left: 158px;
+  margin-left: 100px;
   padding-bottom: 475px;
   background: url("../../img/europe.svg") no-repeat $basic-white;
   background-position: 50% 0;

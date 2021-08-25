@@ -1,7 +1,7 @@
 .places-tab {
   position: relative;
   max-width: 902px;
-  margin-left: 210px;
+  margin: 0 auto;
 
   @media (max-width: $tablet-width) {
     margin-left: 0;
